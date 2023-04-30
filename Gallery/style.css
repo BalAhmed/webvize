@@ -1,0 +1,866 @@
+@media only screen and (min-width: 992px){
+    body{
+        padding: 0;
+        margin: 0 auto;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+    .black{
+        display: block;
+        background-color: #151515;
+        width: 700px;
+        height: 800px;
+        color: #fff;
+        font-family: "Outfit" sans-serif;
+    }
+    .black h1{
+        position: relative;
+        font-weight: bold;
+        font-size: 98px;
+        font-family: 'Big Shoulders Display Black', sans-serif;
+        top: 100px;
+        left: 70px;
+    }
+    .header-content{
+        display: flex;
+        flex-direction: row;
+        font-family: 'Quicksand', sans-serif;
+        justify-content: center;
+    }
+    .header-content p{
+        width: 270px;
+        position: relative;
+        right: 48px;
+        top: 220px;
+        font-size: 18px 28px;
+        font-weight: 600;
+        color:#151515;
+    }
+    .out-location{
+        display: inline-block;
+        width: 673px;
+        height: 859px;
+    }
+    .buttons{
+        width: 200px;
+        height: 50px;
+        background: linear-gradient(90deg, #151515 72%, #d5966c 50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s;
+        position: relative;
+        top: 320px;
+        right: 45px;
+    }
+    .buttons a{
+        text-decoration: none;
+        color:#fff;
+        font-family: 'Big Shoulders Display Black';
+        letter-spacing: 2px;
+    }
+    .buttons img{
+        margin-top: 3px;
+        margin-left: 40px;
+        filter: invert(98%) sepia(0%) saturate(9%) hue-rotate(226deg) brightness(104%) contrast(102%);
+    }
+    .buttons:hover{
+        background: linear-gradient(90deg, #d5966c 72%, #151515 50%);
+        transition: 0.4s;
+    }
+    .back-buttons{
+        width: 200px;
+        height: 50px;
+        background: linear-gradient(90deg, #d5966c 30%, #151515 0%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s;
+        position: absolute;
+        top: 0px;
+        left: 240px;
+    }
+    .back-buttons a{
+        text-decoration: none;
+        color:#fff;
+        font-family: 'Big Shoulders Display Black';
+    }
+    .back-buttons img{
+        margin-top: 3px;
+        margin-right: 60px;
+        filter: invert(98%) sepia(0%) saturate(9%) hue-rotate(226deg) brightness(104%) contrast(102%);
+    }
+    .back-buttons:hover{
+        background: linear-gradient(90deg, #151515 30%, #d5966c 0%);
+    }
+    .main{
+        display: flex;
+        margin-top: 120px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .main-top{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .main-top img{
+        position: relative;
+        left: 50px;
+    }
+    .main-text{
+        position: relative;
+        right: 10px;
+        font-size: 24px;
+    }
+    .main-text h2{
+        font-family: 'Outfit Semibold';
+    }
+    .main-text p{
+        width: 450px;
+        text-align: left;
+        font-family: 'Outfit Thin';
+        font-weight: 600;
+    }
+    .main-bottom{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 25px;
+    }
+    .bottom-rigth img{
+       position: relative;
+       right: -40px;
+    }
+    .bottom-content{
+        width: 450px;
+        height: 350px;
+        background-color: #151515;
+        color: #fff;
+        position: relative;
+        left: 40px;
+        top: 92px;
+    }
+    .bottom-content h1{
+        font-size: 46px;
+        font-family: 'Big Shoulders Display Black';
+        position: relative;
+        top: 60px;
+        left: 50px;
+    }
+    .bottom-content p{
+        position: relative;
+        top: 55px;
+        text-align: left;
+        font-family: 'Outfit Thin';
+        font-size: 18px;
+        position: relative;
+        left: 50px;
+    }
+    .main-footer{
+        width: 100%;
+        height: 250px;
+        background-color: #151515;
+        margin-top: 100px;
+    }
+    .footer-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .footer-content h2{
+        font-family: 'Big Shoulders Display Black';
+        color: #fff;
+        font-size: 42px;
+        margin-top: 70px;
+    }
+    .footer-content p{
+        font-family: 'Outfit Thin';
+        color: #fff;
+        font-weight: 600;
+        margin-top: 70px;
+        font-size: 20px;
+    }
+    .footer-content ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+    }
+    .footer-content ul li{
+        margin: 10px;
+    }
+    .footer-content ul li img{
+        filter: invert(98%) sepia(0%) saturate(9%) hue-rotate(226deg) brightness(104%) contrast(102%);
+    }
+    .footer-content ul li img:hover{
+        filter: invert(73%) sepia(16%) saturate(1110%) hue-rotate(338deg) brightness(86%) contrast(94%);
+    }
+    .img-header{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .main-location{
+        display: flex;
+        justify-content: center;
+        background-color: #151515;
+        width: 100%;
+        height: 600px;
+    }
+    .main-location-content{
+        display: flex;
+        flex-direction: row;
+    }
+    .main-location-content h1{
+        color: #fff;
+        font-family: 'Big Shoulders Display Black';
+        font-size: 76px;
+        position: relative;
+        top: 60px;
+        right: 400px;
+    }
+    .location-details{
+        position: relative;
+        left: 150px;
+        top: 60px;
+    }
+    .main-location-content h3{
+        color: #d5966c;
+        font-family:'Big Shoulders Display Black';
+        font-size: 32px
+    }
+    .main-location-content p{
+        width: 400px;
+        text-align: left;
+        font-family: 'Outfit Thin';
+        color: #fff;
+        font-size: 21px;
+        margin-bottom: 50px;
+    }
+    
+    .location-footer{
+        width: 100%;
+        height: 250px;
+        background-color: #d5966c;
+        color: #151515
+    }
+    .location-footer .footer-content ul li img{
+        filter: invert(0%) sepia(3%) saturate(4022%) hue-rotate(341deg) brightness(100%) contrast(83%);
+    }
+    .location-footer .footer-content ul li img:hover{
+        filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(184deg) brightness(107%) contrast(103%);
+    }
+}
+
+/* Tablet Mode*/
+
+@media screen and (max-width: 768px) {
+    body{
+        padding: 0;
+        margin: 0 auto;
+        height: auto;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+    .black{
+        background-color: transparent;
+    }
+    .black h1{
+        font-weight: bold;
+        font-size: 38px;
+        font-family: 'Big Shoulders Display Black', sans-serif;
+        color:#151515;
+        width: 180px;
+        position: absolute;
+        top: 220px;
+        left: 390px;
+    }
+    .header-content{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Quicksand', sans-serif;
+        justify-content: center;
+    }
+    .header-content img{
+        width: 60%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .header-map{
+        width: 768px;
+        height: 500px;
+    }
+    .header-map img{
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+    .header-content p{
+        position: relative;
+        top: -330px;
+        left: 390px;
+        width: 300px;
+        font-size: 18px 28px;
+        font-weight: 600;
+        color:#151515;
+    }
+    .out-location{
+        width: 100%;
+    }
+    .buttons{
+        width: 200px;
+        height: 50px;
+        background: linear-gradient(90deg, #151515 72%, #d5966c 50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s;
+        position: relative;
+        top: -300px;
+        left: 390px;
+    }
+    .buttons a{
+        text-decoration: none;
+        color:#fff;
+        font-family: 'Big Shoulders Display Black';
+        letter-spacing: 2px;
+    }
+    .buttons img{
+        width: 30px;
+        margin-top: 3px;
+        margin-left: 40px;
+        filter: invert(98%) sepia(0%) saturate(9%) hue-rotate(226deg) brightness(104%) contrast(102%);
+    }
+    .buttons:hover{
+        background: linear-gradient(90deg, #d5966c 72%, #151515 50%);
+        transition: 0.4s;
+    }
+    .back-buttons{
+        width: 200px;
+        height: 50px;
+        background: linear-gradient(90deg, #d5966c 30%, #151515 0%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s;
+        position: absolute;
+        top: 0px;
+        left: 30px;
+    }
+    .back-buttons a{
+        text-decoration: none;
+        color:#fff;
+        font-family: 'Big Shoulders Display Black';
+    }
+    .back-buttons img{
+        margin-top: 3px;
+        margin-right: 60px;
+        filter: invert(98%) sepia(0%) saturate(9%) hue-rotate(226deg) brightness(104%) contrast(102%);
+    }
+    .back-buttons:hover{
+        background: linear-gradient(90deg, #151515 30%, #d5966c 0%);
+    }
+    .main{
+        display: flex;
+        margin-top: 120px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .main-top{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .main-top img{
+        position: relative;
+        right: -10px;
+    }
+    .main-top .main-image-top img{
+        width: 450px;
+        height: 400px;
+        object-fit: cover;
+    }
+    .main-text{
+        position: relative;
+        left: 0px;
+        font-size: 18px;
+    }
+    .main-text h2{
+        font-family: 'Outfit Black';
+        width:200px;
+        font-size: 34px;
+        
+    }
+    .main-text p{
+        margin-top: 60px;
+        text-align: left;
+        font-family: 'Outfit Thin';
+        font-weight: 600;
+        width: 170px;
+    }
+    .main-bottom{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 25px;
+    }
+    .bottom-rigth img{
+        width: 300px;
+        height: 360px;
+        object-fit: cover;
+       position: relative;
+       right: -35px;
+    }
+    .bottom-left img{
+        width: 350px;
+        height: 800px;
+        object-fit: cover;
+    }
+    .bottom-content{
+        width: 300px;
+        height: 350px;
+        background-color: #151515;
+        color: #fff;
+        position: relative;
+        left: 33px;
+        top: 55px;
+    }
+    .bottom-content h1{
+        font-size: 42px;
+        font-family: 'Big Shoulders Display Black';
+        position: relative;
+        top: 60px;
+        left: 20px;
+    }
+    .bottom-content p{
+        width: 220px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 70px;
+        text-align: left;
+        font-family: 'Outfit Thin';
+        font-size: 18px;
+        position: relative;
+        left: 20px;
+    }
+    .main-footer{
+        width: 100%;
+        height: 250px;
+        background-color: #151515;
+        margin-top: 100px;
+    }
+    .footer-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .footer-content h2{
+        font-family: 'Big Shoulders Display Black';
+        color: #fff;
+        font-size: 18px;
+        margin-top: 70px;
+    }
+    .footer-content p{
+        font-family: 'Outfit Thin';
+        color: #fff;
+        font-weight: 600;
+        margin-top: 70px;
+        font-size: 15px;
+    }
+    .footer-content ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+    }
+    .footer-content ul li{
+        margin: 10px;
+    }
+    .footer-content ul li img{
+        width: 10px;
+        filter: invert(98%) sepia(0%) saturate(9%) hue-rotate(226deg) brightness(104%) contrast(102%);
+    }
+    .footer-content ul li img:hover{
+        filter: invert(73%) sepia(16%) saturate(1110%) hue-rotate(338deg) brightness(86%) contrast(94%);
+    }
+    .img-header{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .main-location{
+        display: flex;
+        justify-content: center;
+        background-color: #151515;
+        width: 100%;
+        height: 450px;
+    }
+    .main-location-content{
+        display: flex;
+        flex-direction: row;
+    }
+    .main-location-content h1{
+        color: #fff;
+        font-family: 'Big Shoulders Display Black';
+        font-size: 52px;
+        position: relative;
+        top: 50px;
+        left: 40px;
+    }
+    .location-details{
+        position: relative;
+        left: 150px;
+        top: 50px;
+    }
+    .main-location-content h3{
+        color: #d5966c;
+        font-family:'Big Shoulders Display Black';
+        font-size: 32px
+    }
+    .main-location-content p{
+        text-align: left;
+        font-family: 'Outfit Thin';
+        color: #fff;
+        font-size: 19px;
+        margin-right: 200px;
+        margin-bottom: 50px;
+        width: 300px;
+    }
+    .location-footer{
+        width: 100%;
+        height: 250px;
+        background-color: #d5966c;
+        color: #151515
+    }
+    .location-footer .footer-content ul li img{
+        filter: invert(0%) sepia(3%) saturate(4022%) hue-rotate(341deg) brightness(100%) contrast(83%);
+    }
+    .location-footer .footer-content ul li img:hover{
+        filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(184deg) brightness(107%) contrast(103%);
+    }
+}
+
+/*Phone Mode*/
+
+@media only screen and (max-width: 480px){
+    body{
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+        height: auto;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+    .header-map{
+        width: 100%;
+        height: 500px;
+    }
+    .page-top-image{
+        width: 100%;
+        height: 200px;
+    }
+    .black{
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+    }
+    .black h1{
+        font-weight: bold;
+        font-size: 56px;
+        z-index: 1;
+        font-family: 'Big Shoulders Display Black', sans-serif;
+        position: relative;
+        top: 200px;
+        left: 140px;
+        width: 270px;
+    }
+    .header-content{
+        display: flex;
+        flex-direction: row;
+        font-family: 'Quicksand', sans-serif;
+        justify-content: center;
+    }
+    .header-content img{
+        width: 100%;
+        height: 530px;
+        object-fit: cover;
+    }
+    .header-content p{
+        position: relative;
+        left: -125px;
+        top: 390px;
+        font-size: 18px 28px;
+        font-weight: 600;
+        color:#151515;
+        width: 270px;
+    }
+    .out-location{
+        display: inline-block;
+        width: 373px;
+        height: 859px;
+    }
+    .buttons{
+        z-index: 1;
+        width: 200px;
+        height: 50px;
+        background: linear-gradient(90deg, #151515 72%, #d5966c 50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s;
+        position: relative;
+        top: 420px;
+        left: -125px;
+    }
+    .buttons a{
+        text-decoration: none;
+        color:#fff;
+        font-family: 'Big Shoulders Display Black';
+        letter-spacing: 2px;
+    }
+    .buttons img{
+        width: 30px;
+        height: 30px;
+        margin-top: 3px;
+        margin-left: 40px;
+        filter: invert(98%) sepia(0%) saturate(9%) hue-rotate(226deg) brightness(104%) contrast(102%);
+    }
+    .buttons:hover{
+        background: linear-gradient(90deg, #d5966c 72%, #151515 50%);
+        transition: 0.4s;
+    }
+    .header .back-buttons{
+        width: 200px;
+        height: 50px;
+        background: linear-gradient(90deg, #d5966c 30%, #151515 0%);
+        position: relative;
+        top: -500px;
+        left: 50px;
+    }
+    .back-buttons a{
+        text-decoration: none;
+        color:#fff;
+        font-family: 'Big Shoulders Display Black';
+    }
+    .back-buttons img{
+        margin-top: 3px;
+        margin-right: 60px;
+        filter: invert(98%) sepia(0%) saturate(9%) hue-rotate(226deg) brightness(104%) contrast(102%);
+    }
+    .back-buttons:hover{
+        background: linear-gradient(90deg, #151515 30%, #d5966c 0%);
+    }
+    .main{
+        display: flex;
+        margin-top: 120px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .main-top{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .main-top .main-image-top {
+        width: 380px;
+        height: 400px;
+        object-fit: cover;
+        position: relative;
+        right: 195px;
+        top: 50px;
+    }
+    .main-text{
+        position: relative;
+        left: 200px;
+        top: -350px;
+        font-size: 18px;
+    }
+    .main-text h2{
+        font-family: 'Big Shoulders Display Black', sans-serif;
+        font-size: 46px;
+        width: 300px;
+    }
+    .main-text p{
+        margin-top: 60px;
+        text-align: left;
+        font-family: 'Outfit Thin';
+        font-weight: 600;
+        width: 280px;
+    }
+    .main-bottom{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 25px;
+    }
+    .bottom-left img{
+        width: 380px;
+        height: 800px;
+        object-fit: cover;
+        position: relative;
+        left: 195px;
+        top: 80px;
+    }
+    .bottom-rigth {
+        width: 380px;
+        height: 360px;
+        object-fit: cover;
+        position: relative;
+        right: 220px;
+        top: 920px;
+    }
+    .bottom-rigth img{
+        width: 380px;
+        height: 360px;
+    }
+    .bottom-content{
+        width: 380px;
+        height: 360px;
+        background-color: #151515;
+        color: #fff;
+        position: relative;
+        top: -10px
+
+    }
+    .bottom-content h1{
+        font-size: 42px;
+        font-family: 'Big Shoulders Display Black';
+        position: relative;
+        top: 60px;
+        left: 20px;
+    }
+    .bottom-content p{
+        width: 220px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 70px;
+        text-align: left;
+        font-family: 'Outfit Thin';
+        font-size: 18px;
+        position: relative;
+        left: 20px;
+    }
+    .main-footer{
+        width: 100%;
+        height: 250px;
+        background-color: #151515;
+        margin-top: 100px;
+        position: relative;
+        top: 830px;
+        left: 0px;
+    }
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .footer-content h2{
+        font-family: 'Big Shoulders Display Black';
+        color: #fff;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .footer-content p{
+        font-family: 'Outfit Thin';
+        color: #fff;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-left: 20px;
+        font-size: 14px;
+    }
+    .footer-content ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        position: relative;
+        right: 20px;
+    }
+    .footer-content ul li{
+        margin: 7px;
+    }
+    .footer-content ul li img{
+        width: 24px;
+        filter: invert(98%) sepia(0%) saturate(9%) hue-rotate(226deg) brightness(104%) contrast(102%);
+    }
+    .footer-content ul li img:hover{
+        filter: invert(73%) sepia(16%) saturate(1110%) hue-rotate(338deg) brightness(86%) contrast(94%);
+    }
+    .img-header{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .main-location{
+        display: flex;
+        justify-content: center;
+        background-color: #151515;
+        width: 100%;
+        height: 500px;
+        margin-top: -50px;
+        margin-bottom: 30px;
+    }
+    .main-location-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-location-content h1{
+        color: #fff;
+        font-family: 'Big Shoulders Display Black';
+        font-size: 56px;
+        position: relative;
+        top: 15px;
+        left: 70px;
+        width: 290px;
+    }
+    .location-details{
+        position: relative;
+        left: 70px;
+        top: 0px;
+    }
+    .location-details .address{
+        width: 200px;
+    }
+    .main-location-content h3{
+        color: #d5966c;
+        font-family:'Big Shoulders Display Black';
+        font-size: 32px;
+    }
+    .main-location-content p{
+        text-align: left;
+        font-family: 'Outfit Thin';
+        color: #fff;
+        font-size: 18px;
+        text-align: left;
+        width: 350px;
+    }
+    .location-footer{
+        width: 100%;
+        height: 250px;
+        background-color: #d5966c;
+        color: #151515;
+        margin-top: -50px;
+    }
+    .location-footer .footer-content ul li img{
+        filter: invert(0%) sepia(3%) saturate(4022%) hue-rotate(341deg) brightness(100%) contrast(83%);
+    }
+    .location-footer .footer-content ul li img:hover{
+        filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(184deg) brightness(107%) contrast(103%);
+    }
+}
